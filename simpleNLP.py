@@ -13,6 +13,7 @@ from nltk.classify import SklearnClassifier
 from sklearn.naive_bayes import MultinomialNB,BernoulliNB
 import csv
 from sklearn.metrics import accuracy_score
+import pandas as pd
 
 def readCSV(csvfilename):
     mylist = []
